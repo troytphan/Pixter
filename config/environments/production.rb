@@ -25,7 +25,8 @@ Pixter::Application.configure do
   # Compress JavaScripts and CSS.
   config.assets.js_compressor = :uglifier
   # config.assets.css_compressor = :sass
-large-scale  # Do not fallback to assets pipeline if a precompiled asset is missed.
+
+  # Do  fallback to assets pipeline if a precompiled asset is missed.
   config.assets.compile = true
 
   # Generate digests for assets URLs.
