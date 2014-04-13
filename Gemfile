@@ -32,6 +32,7 @@ group :doc do
   gem 'sdoc', require: false
 end
  gem "twitter-bootstrap-rails"
+gem 'simple_form'
 
  
 # Use ActiveModel has_secure_password
