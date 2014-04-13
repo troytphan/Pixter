@@ -4,13 +4,21 @@
 	background-color: rgba(36, 32, 33, 0.5);
 	padding: 1%;
 	color: white;
+	margin-bottom: 20px;
 
 }
 
 body {  
 	background: url("bg.jpg") no-repeat center center fixed; 
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-}
+  	-webkit-background-size: cover;
+  	-moz-background-size: cover;
+  	-o-background-size: cover;
+  	background-size: cover;
+	}
+
+h1 {
+	font-size: 40px;
+	font-family: Helvetica Neue Light,Helvetica Neue,Helvetica,Arial,Lucia Grande,sans-serif;
+	line-height: 20px;
+	font-weight: 35px;
+	}
