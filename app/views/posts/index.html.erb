@@ -1,4 +1,6 @@
-<h1> class="text-centerStar Trek Lovers United</h1>
+<h1 class="text-center"> 
+Star Trek Lovers Unite
+</h1>
 
 <br/>
 
@@ -7,9 +9,15 @@
 		<h1>
 			<%= post.title %>
 		</h1>
-		<p>
+
+		<% if post.image.present? %>
+			<%= image_tag post.image %>
+		<% end %>
+
+
+		<h2>
 			<%= post.description %>
-		</p>
+		</h2>
 
 	</div>
 	
